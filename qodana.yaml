@@ -4,3 +4,11 @@ profile:
   name: qodana.recommended
 include:
   - name: CheckDependencyLicenses
+source:
+  include:
+    - controller/
+    - db/
+    - model/
+    - view/
+  exclude:
+    - images/
